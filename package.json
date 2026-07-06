@@ -1,0 +1,17 @@
+{
+  "name": "LEARNING-NODE",
+  "version": "1.0.0",
+  "description": "Learning Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "node",
+    "learning"
+  ],
+  "author": "EmmaNkem",
+  "license": "ISC",
+  "type": "module"
+}
