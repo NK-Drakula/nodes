@@ -1,4 +1,3 @@
-#!/usr/bin/env node
+const generateRandomNumber = require('./utils');
 
-// your javascript code 
-console.log("HELLO WORLD");
+console.log(`Random Number: ${generateRandomNumber()}`)
