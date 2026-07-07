@@ -1,5 +1,10 @@
-// Generate randomw number
-function generateNumber () {
-    return Math.floor(Math.random() * 100) + 1;
+// Generate random number
+function generateRandomNumber() {
+  return Math.floor(Math.random() * 100) + 1;
 }
-module.exports = generateNumber;
+
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+
+module.exports = { generateRandomNumber, celsiusToFahrenheit };
