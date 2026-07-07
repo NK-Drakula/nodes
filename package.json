@@ -12,5 +12,6 @@
     "learning"
   ],
   "author": "EmmaNkem",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
